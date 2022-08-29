@@ -1,0 +1,28 @@
+{
+  "statusCode": 200,
+  "message": "OK",
+  "data": {
+    "quoteFunds": [
+      {
+        "objectType": "FUND",
+        "cnyesId": "A16013",
+        "isin": "<mark>TW000T1617Y7</mark>",
+        "displayNameLocal": "群益平衡王基金",
+        "displayName": "Capital Value Balance Fund"
+      }
+    ],
+    "news": [],
+    "oldDrivers": [
+      {
+        "objectType": "OLD_DRIVER",
+        "driverId": "886894DCD918F6756105364BF1A71FEB67FF929A",
+        "nickname": "<mark>T</mark>28",
+        "avatarPicture": "https://prod-old-driver-avatar.s3.ap-northeast-1.amazonaws.com/886894DCD918F6756105364BF1A71FEB67FF929A.jpg",
+        "return1Year": -15.64997,
+        "yearLowestPerformance": -6.13568,
+        "assetLevel": "20-100萬",
+        "riskLevel": "RR5"
+      }
+    ]
+  }
+}
