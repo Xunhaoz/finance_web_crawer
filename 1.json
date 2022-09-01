@@ -1,28 +1,79 @@
 {
-  "statusCode": 200,
-  "message": "OK",
-  "data": {
-    "quoteFunds": [
+  "items": {
+    "current_page": 1,
+    "data": [
       {
-        "objectType": "FUND",
-        "cnyesId": "A16013",
-        "isin": "<mark>TW000T1617Y7</mark>",
-        "displayNameLocal": "群益平衡王基金",
-        "displayName": "Capital Value Balance Fund"
+        "tradeDate": 1661875200,
+        "nav": 240.34,
+        "change": 1.5,
+        "changePercent": 0.62804
+      },
+      {
+        "tradeDate": 1661788800,
+        "nav": 238.84,
+        "change": -3.16,
+        "changePercent": -1.30579
+      },
+      {
+        "tradeDate": 1661702400,
+        "nav": 242,
+        "change": -0.42,
+        "changePercent": -0.17325
+      },
+      {
+        "tradeDate": 1661443200,
+        "nav": 242.42,
+        "change": 0.69,
+        "changePercent": 0.28544
+      },
+      {
+        "tradeDate": 1661356800,
+        "nav": 241.73,
+        "change": 6.72,
+        "changePercent": 2.85945
+      },
+      {
+        "tradeDate": 1661270400,
+        "nav": 235.01,
+        "change": 0.2,
+        "changePercent": 0.08518
+      },
+      {
+        "tradeDate": 1661184000,
+        "nav": 234.81,
+        "change": -1.69,
+        "changePercent": -0.71459
+      },
+      {
+        "tradeDate": 1661097600,
+        "nav": 236.5,
+        "change": 2.4,
+        "changePercent": 1.0252
+      },
+      {
+        "tradeDate": 1660838400,
+        "nav": 234.1,
+        "change": 0.55,
+        "changePercent": 0.2355
+      },
+      {
+        "tradeDate": 1660752000,
+        "nav": 233.55,
+        "change": -0.82,
+        "changePercent": -0.34987
       }
     ],
-    "news": [],
-    "oldDrivers": [
-      {
-        "objectType": "OLD_DRIVER",
-        "driverId": "886894DCD918F6756105364BF1A71FEB67FF929A",
-        "nickname": "<mark>T</mark>28",
-        "avatarPicture": "https://prod-old-driver-avatar.s3.ap-northeast-1.amazonaws.com/886894DCD918F6756105364BF1A71FEB67FF929A.jpg",
-        "return1Year": -15.64997,
-        "yearLowestPerformance": -6.13568,
-        "assetLevel": "20-100萬",
-        "riskLevel": "RR5"
-      }
-    ]
-  }
+    "first_page_url": "\/fund\/api\/v1\/funds\/B49,048\/nav?format=table&page=1&isVendor=0&userFrom=anue",
+    "from": 1,
+    "last_page": 324,
+    "last_page_url": "\/fund\/api\/v1\/funds\/B49,048\/nav?format=table&page=324&isVendor=0&userFrom=anue",
+    "next_page_url": "\/fund\/api\/v1\/funds\/B49,048\/nav?format=table&page=2&isVendor=0&userFrom=anue",
+    "path": "\/fund\/api\/v1\/funds\/B49,048\/nav",
+    "per_page": 10,
+    "prev_page_url": null,
+    "to": 10,
+    "total": 3240
+  },
+  "message": "\u6210\u529f",
+  "statusCode": 200
 }

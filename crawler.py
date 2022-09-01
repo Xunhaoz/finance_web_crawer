@@ -50,16 +50,7 @@ def search_cnyesId_by_isin(isin):
 
 
 if __name__ == "__main__":
-    df = pd.read_csv('fund_info_old.csv')
-    ids = []
-    isins = []
-    cnyesIds = []
-    with tqdm(total=6000) as pbar:
-        pbar.set_description('Processing:')
-
-        for key, isin in enumerate(df['isin']):
-            pbar.update(1)
-            ids.append(key)
-            isins.append(isin)
-            cnyesIds.append(search_cnyesId_by_isin(isin))
-        pd.DataFrame(data={"id": ids, "isin": isins, "cnyesId": cnyesIds}).to_csv('fund_info_new.csv')
+    df = pd.read_csv('fund_info_new.csv')
+    print(df.head())
+    df = df[df['FALSE'] != True]
+    print(df.to_csv('problem.csv'))
